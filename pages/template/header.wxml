@@ -1,0 +1,9 @@
+<view class="title">
+  <!-- <view>
+  <text class='iconfont icon-disclosureindicator  home'></text> 
+ </view>  -->
+<view class="searchBox">
+  <text class="iconfont icon-sousuo"></text>
+  <input type='text' class="search" maxlength='20' placeholder="搜索附近影院" value='{{}}' bindtap=''></input>
+</view>
+</view>

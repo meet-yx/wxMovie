@@ -1,0 +1,61 @@
+<view class='myPage'>
+  <view class='ticket'>
+  <!-- 第一个 -->
+       <view class='Cticket'>
+            <view class='icon iconfont .icon-dianying'>
+            </view>
+              <view class='Cword'>
+                 <text>电影票</text> 
+                 <text>></text>
+              </view>
+       </view>
+   <!-- 第二个 -->
+              <view class='Cticket'>
+            <view class='icon iconfont .icon-kan'>
+            </view>
+              <view class='Cword'>
+                 <text>看过的电影</text> 
+                 <text>></text>
+              </view>
+       </view>
+ <!-- 第三个 -->
+              <view class='Cticket'>
+            <view class='icon iconfont .icon-xiangqu'>
+            </view>
+              <view class='Cword'>
+                 <text>想看的电影</text> 
+                 <text>></text>
+              </view>
+       </view>
+  </view>
+
+   <view class='line'>
+   <!-- 第四个 -->
+     <view class='Cticket'>
+            <view class='icon iconfont .icon-41'>
+            </view>
+              <view class='Cword'>
+                 <text>我的评论</text> 
+                 <text>></text>
+              </view>
+       </view>
+<!-- 第五个 -->
+     <view class='Cticket'>
+            <view class='icon iconfont .icon-fankui'>
+            </view>
+              <view class='Cword'>
+                 <text>反馈与帮助</text> 
+                 <text>></text>
+              </view>
+       </view>
+       <!-- 第六个 -->
+            <view class='Cticket'>
+            <view class='icon iconfont .icon-dianhua'>
+            </view>
+              <view class='Cword'>
+                 <text>联系我们</text> 
+                 <text>></text>
+              </view>
+       </view>
+   </view>
+</view>

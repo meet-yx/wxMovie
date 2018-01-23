@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Cinema/Cinema",
+    "pages/comment/comment",
+    "pages/myEye/myEye"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Eye电影",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "white",
+    "selectedColor": "skyblue",
+    "backgroundColor": "#2a2a34",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热映",
+        "iconPath": "images/well1.png",
+        "selectedIconPath": "images/well2.png"
+      },
+      {
+        "pagePath": "pages/Cinema/Cinema",
+        "text": "影院",
+        "iconPath": "images/Cinema1.png",
+        "selectedIconPath": "images/Cinema2.png"
+      },
+      {
+        "pagePath": "pages/comment/comment",
+        "text": "影讯",
+        "iconPath": "images/find1.png",
+        "selectedIconPath": "images/find2.png"
+      },
+      {
+        "pagePath": "pages/myEye/myEye",
+        "text": "我的",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png"
+      }
+    ]
+  }
+}

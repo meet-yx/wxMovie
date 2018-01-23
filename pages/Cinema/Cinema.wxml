@@ -1,0 +1,30 @@
+<include src="../template/header.wxml" />
+<view class="chose">
+
+ <swiper  class='banner' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{banner}}">
+    <swiper-item>
+      <image src="{{item.pic_url}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class='cinema'>
+  <block wx:for="{{Clocation}}">
+
+    <view class='cinemabgc'>
+      <view class='locaword'>
+        <view>
+          <text class='Ctitle iconfont .icon-dianpu'>{{item.Ctitle}}</text>
+        </view>
+        <view class='box'>
+          <text class='Cadddress iconfont .icon-dizhi'>{{item.Caddress}}</text>
+          <text class='Category'>{{item.Category}}</text>
+        </view>
+
+      </view>
+    </view>
+  </block>
+</view>
